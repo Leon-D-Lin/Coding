@@ -13,7 +13,7 @@ public class StringReducerTest {
         StringReducer stringRemove = new StringReducer(new RemoveStrategy());
 
         String aaaa = stringRemove.reduce("aaaa");
-        
+
         System.out.println("aaaa ==> " + aaaa);
     }
 
